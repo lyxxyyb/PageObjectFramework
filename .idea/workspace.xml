@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="164b3153-7064-4301-890d-8e8c39ba8817" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pageObject.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runAll.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/user_baidu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/BasePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +23,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_baidu.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BasePage.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/BasePage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_baidu.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/user_baidu.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
@@ -84,16 +93,6 @@
               <item name="PageObjectFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="PageObjectFramework" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PageObjectFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PageObjectFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PageObjectFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PageObjectFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -108,6 +107,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\tmp\PageObjectFramework\common" />
       <recent name="D:\tmp\PageObjectFramework\test" />
     </key>
   </component>
@@ -170,13 +170,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/pageObject.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runAll.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -190,6 +183,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pageObject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/BasePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
