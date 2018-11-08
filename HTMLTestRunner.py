@@ -342,7 +342,7 @@ class Template_mixin(object):
     #
 
     HEADING_TMPL = """
-    <div class='page-header'>
+    <div class='pages-header'>
         <h1>%(title)s</h1>
     %(parameters)s
     </div>

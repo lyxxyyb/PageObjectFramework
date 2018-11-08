@@ -54,7 +54,7 @@ class PageElement(object):
         Use this class locator
     :param context: `bool`
         This element is expected to be called with context
-    Page Elements are used to access elements on a page. The are constructed
+    Page Elements are used to access elements on a pages. The are constructed
     using this factory method to specify the locator for the element.
         # >>> from page_objects import PageObject, PageElement
         # >>> class MyPage(PageObject):
