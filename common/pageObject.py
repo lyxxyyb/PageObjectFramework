@@ -39,7 +39,6 @@ class PageElement(object):
         if position not in POSITIONING_ELEMENT:
             raise ValueError("Please enter right positioning element method")
 
-
     def find(self):
         return
 
