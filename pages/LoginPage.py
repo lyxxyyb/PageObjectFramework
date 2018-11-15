@@ -5,8 +5,8 @@ from common.url import *
 
 class LoginPage(PageObject):
     base_url = Url().base_url
-    url = base_url + '/login2'
+    url = base_url
 
     # login页面元素
-    email = PageElement(id='inputEmail')
+    input = PageElement(id='kw')
     passwd = PageElement(id='inputPassword')
